@@ -50,7 +50,7 @@ while cap.isOpened():
     final_output = cv2.addWeighted(res1, 1, res2, 1, 0)
 
     # Display the final output
-    cv2.imshow('Eureka!!', final_output)
+    cv2.imshow('Output', final_output)
 
     # Exit on pressing 'ESC'
     k = cv2.waitKey(10)
